@@ -12,9 +12,6 @@ be easily modified to be used in other 3D applications.
 1. Download the BRATS 2018 data by following the steps outlined on the [BRATS 2018 competition page](https://www.med.upenn.edu/sbia/brats2018/registration.html).
 Place the unzipped folders in the
 ```brats/data/original``` folder.
-(You can also get the older versions of the dataset without signing up:
-[LGG](https://app.box.com/shared/static/x75fzof83mmomea2yy9kshzj3tr9zni3.zip)
-[GBM](https://app.box.com/shared/static/l5zoa0bjp1pigpgcgakup83pzadm6wxs.zip))
 2. Install Python 3 and dependencies: 
 ```
 nibabel,
@@ -87,3 +84,5 @@ If you want to train a 3D UNet on a different set of data, you can copy either t
 [train_isensee2017.py](brats/train_isensee2017.py) scripts and modify them to 
 read in your data rather than the preprocessed BRATS data that they are currently setup to train on.
 
+## Pretrained model on Brats2018+[TCGA_LGG](https://drive.google.com/file/d/1-1MfNj5AUcGGw2qT8iM_8s7xgLBqOWpR/view?usp=sharing) datasets.
+[Pretrained model](https://drive.google.com/file/d/1MKm64YHXs04EJp5AV1dq66-_oV-5Ns5W/view?usp=sharing)
